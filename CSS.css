@@ -1,14 +1,24 @@
-body {
+a {
+	color: white;
+	font-size: 20px;
+}
 
+.Active {
+	color: #FF3300;
+}
+
+.Active:hover {
+	color: green;
+}
+
+body {
 	background: black;
 }
-p {
-	padding-left: 90px;
-	font-size: 20px;
-	line-height: 25px;
-	padding-right: 90px;
-	font-size-adjust: 0.28;
-	color: white;
+
+.logo {
+
+	width: 21%; 
+	height: 16%;
 }
 
 .NavBar
@@ -19,11 +29,23 @@ p {
 	border-style: outset;
 	border-color: green;
 	background-color: rgb(0,0,0);
-	padding: 10px;
-
+	padding: 10px 0px;
+	margin-top: 20px;
 }
 
-a {
+.NavBarText:hover {
+	color: green;
+}
+
+p {
+	padding-left: 90px;
+	font-size: 1vw;
+	line-height: 2vw;
+	padding-right: 90px;
+	font-size-adjust: 0.28;
 	color: white;
-	font-size: 20px;
 }
+
+
+
+
